@@ -5,8 +5,8 @@ import sys
 from command_structures import TPM_PACKETS
 from structures import TPM_COMMAND_CODE
 
-# n.b. do not manipulate/clobber the global variable `lastCommand`
-# see hack in command_structures._TPM_RSP_BODY
+# n.b. do not manipulate/clobber the global variables `lastCommand` and `currentParamSize`
+# see hacks in command_structures._TPM_RSP_BODY
 
 # TODO:
 # Parsing with explicitly raised exceptions, rather than silent stop?
